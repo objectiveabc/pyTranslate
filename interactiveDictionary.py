@@ -8,4 +8,4 @@ def find(w):
         return "Uh-oh! This word isn't currently covered."
 
 word = raw_input("Enter a word: ")
-print(find(word.lower())) #lower() - converts input and makes the query caps insensitive
+print(find(word.lower())) #lower() - converts input and makes the query caps insensitive - assumes data.json is lower case
